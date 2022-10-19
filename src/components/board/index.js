@@ -1,7 +1,21 @@
-import { Container } from './styles';
+import { Container, Box } from './styles';
 
 export function Board(){
+  /**
+   * :heavy-large-circle ⭕
+   * :cross-mark ❌
+   */
   return(
-    <Container>Hello World</Container>
+    <Container>
+      <Box />
+      <Box />
+      <Box />
+      <Box />
+      <Box />
+      <Box />
+      <Box />
+      <Box />
+      <Box />
+    </Container>
   )
 }
